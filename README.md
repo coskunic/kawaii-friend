@@ -31,9 +31,9 @@ This project is a mobile application assignment designed to demonstrate state ma
 
 _(Add your screenshots here later)_
 
-|                      Home Screen                       |                           Interaction                           |                            Settings                            |
-| :----------------------------------------------------: | :-------------------------------------------------------------: | :------------------------------------------------------------: |
-| ![Home](https://via.placeholder.com/200x400?text=Home) | ![Interaction](https://via.placeholder.com/200x400?text=Action) | ![Settings](https://via.placeholder.com/200x400?text=Settings) |
+|               Home Screen               |                   Interaction                    |                    Settings                     |
+| :-------------------------------------: | :----------------------------------------------: | :---------------------------------------------: |
+| ![Home](./assets/screenshots/home.jpeg) | ![Interaction](./assets/screenshots/action.jpeg) | ![Settings](./assets/screenshots/settings.jpeg) |
 
 ---
 
