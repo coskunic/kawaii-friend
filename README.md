@@ -83,24 +83,24 @@ Follow these steps to run the project locally:
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 KAWAIIFRIEND/
 ├── assets/
-│ ├── images/ # Cat mood illustrations
-│ ├── screenshots/ # App preview images
-│ └── icon.png # App icons & splash
+│ ├── images/ # Kedi mod görselleri
+│ ├── screenshots/ # Uygulama ekran görüntüleri
+│ └── icon.png # Uygulama ikonları ve açılış ekranı
 ├── src/
-│ ├── components/ # CustomAlert, InteractionButton
-│ ├── config/ # firebase.ts
-│ ├── navigation/ # MainTab & Root Navigators
-│ ├── screens/ # Home, Login, Register, Settings
-│ ├── types/ # TypeScript interfaces (index.ts)
-│ └── utils/ # notifications.ts
-├── App.tsx # Application entry point
-├── app.json # Expo configuration
-├── tailwind.config.js # Styling configuration
-└── README.md # Documentation
+│ ├── components/ # Özel bileşenler (CustomAlert, InteractionButton)
+│ ├── config/ # Firebase yapılandırması (firebase.ts)
+│ ├── navigation/ # Navigasyon yapısı (MainTab, Root)
+│ ├── screens/ # Ekranlar (Home, Login, Register, Settings)
+│ ├── types/ # TypeScript arayüzleri (index.ts)
+│ └── utils/ # Yardımcı araçlar (notifications.ts)
+├── App.tsx # Uygulama giriş noktası
+├── app.json # Expo ayarları
+├── tailwind.config.js # Stil yapılandırması
+└── README.md # Proje dökümantasyonu
 
 ## 📝 License
 
