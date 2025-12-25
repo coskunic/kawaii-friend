@@ -55,7 +55,7 @@ Follow these steps to run the project locally:
 1.  **Clone the repository:**
 
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/kawaii-friend.git](https://github.com/YOUR_USERNAME/kawaii-friend.git)
+    git clone https://github.com/coskunic/kawaii-friend.git
     cd kawaii-friend
     ```
 
