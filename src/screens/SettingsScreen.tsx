@@ -27,9 +27,9 @@ export default function SettingsScreen() {
   const [loading, setLoading] = useState(false);
   const [fetching, setFetching] = useState(true);
 
-  const [notifHungry, setNotifHungry] = useState(true);
+  const [notifHungry, setNotifHungry] = useState(false);
   const [notifPlay, setNotifPlay] = useState(false);
-  const [notifSleep, setNotifSleep] = useState(true);
+  const [notifSleep, setNotifSleep] = useState(false);
 
   useEffect(() => {
     const fetchUserData = async () => {
