@@ -85,7 +85,22 @@ Follow these steps to run the project locally:
 
 ## 📂 Project Structure
 
-kawaii-friend/ ├── src/ │ ├── config/ # Firebase configuration │ ├── components/ # Reusable UI components │ ├── navigation/ # Tab and Stack navigators │ ├── screens/ # Application screens (Home, Auth, Settings) │ └── types/ # TypeScript interfaces ├── App.tsx # Entry point ├── tailwind.config.js └── babel.config.js
+KAWAIIFRIEND/
+├── assets/
+│ ├── images/ # Cat mood illustrations
+│ ├── screenshots/ # App preview images
+│ └── icon.png # App icons & splash
+├── src/
+│ ├── components/ # CustomAlert, InteractionButton
+│ ├── config/ # firebase.ts
+│ ├── navigation/ # MainTab & Root Navigators
+│ ├── screens/ # Home, Login, Register, Settings
+│ ├── types/ # TypeScript interfaces (index.ts)
+│ └── utils/ # notifications.ts
+├── App.tsx # Application entry point
+├── app.json # Expo configuration
+├── tailwind.config.js # Styling configuration
+└── README.md # Documentation
 
 ## 📝 License
 
