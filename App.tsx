@@ -1,13 +1,18 @@
-import { StatusBar } from "expo-status-bar";
-import { Text, View } from "react-native";
+import React from "react";
+import { LogBox } from "react-native";
+import { SafeAreaProvider } from "react-native-safe-area-context";
+import RootNavigator from "./src/navigation/RootNavigator";
+
+LogBox.ignoreLogs([
+  "expo-notifications:",
+  "Android Push Notifications",
+  "No compatible apps connected",
+]);
 
 export default function App() {
   return (
-    <View className="flex-1 items-center justify-center bg-kawaii-pink">
-      <Text className="text-red-500 font-bold text-2xl">
-        Kawaii Friend Başlıyor! 🐣
-      </Text>
-      <StatusBar style="auto" />
-    </View>
+    <SafeAreaProvider>
+      <RootNavigator />
+    </SafeAreaProvider>
   );
 }
